@@ -2,78 +2,68 @@
 # Sprint Planning - Sistema Los Robles
 
 ## Objetivo
-Crear una página web para la comunidad Los Robles, donde las personas puedan consultar avisos, servicios y enviar reportes.
 
-## Equipo 4
-- Desarrolladora: Mayra Fabiola Meléndez López
-- Product Owner: Alberto Sebastián Mejorada Ballesteros
-- Scrum Master: Orlando Padilla Vilches
+Crear una página web para que los vecinos puedan consultar avisos, conocer servicios y enviar reportes.
 
 ## Sprint 1. Planeación y diseño
 
-Tiempo estimado: 5 días (32 horas).
+Duración: 5 días
+Horas: 32
 
-HU-01. Planeación (5 puntos)
-Estado: Terminado.
+- HU-01: Planeación. Terminada.
+- HU-02: Diseño. En proceso.
 
-Se definió para qué servirá la página, a quién va dirigida y qué información tendrá.
+Avance: Se organizaron las secciones de la página.
 
-HU-02. Diseño (5 puntos)
-Estado: En proceso.
+## Sprint 2. Desarrollo
 
-Se trabajó en el diseño de la página y en las secciones de Inicio, Avisos, Servicios y Contacto.
+Duración: 5 días
+Horas: 84
 
-## Sprint 2. Desarrollo de la página
+- HU-03: Frontend con React. En proceso.
+- HU-04: Backend. Pendiente.
 
-Tiempo estimado: 5 días (84 horas).
-
-HU-03. Frontend (8 puntos)
-Estado: En proceso.
-
-Se creó la página con React. Ya se pueden abrir las diferentes secciones y utilizar el formulario de reportes.
-
-HU-04. Backend (8 puntos)
-Estado: Pendiente.
-
-Todavía falta conectar el formulario con una base de datos para guardar la información.
+Avance: Se agregó un historial para guardar y consultar varios reportes. También se muestra la fecha y el total de reportes.
 
 ## Sprint 3. Pruebas y publicación
 
-Tiempo estimado: 5 días (88 horas).
+Duración: 5 días
+Horas: 88
 
-HU-05. Pruebas (5 puntos)
-Estado: Pendiente.
+- HU-05: Pruebas. En proceso.
+- HU-06: Publicación. Pendiente.
+- HU-07: Mantenimiento. Pendiente.
 
-Se hicieron algunas pruebas de la página y el formulario, pero faltan más revisiones.
+Avance: Se probó el formulario y se comprobó que los reportes siguen guardados al actualizar la página.
 
-HU-06. Publicación (5 puntos)
-Estado: Pendiente.
+## Product Backlog
 
-Falta publicar la página en Internet.
+| Historia | Actividad | Puntos | Estado |
+|---|---|---|---|
+| HU-01 | Planeación | 5 | Terminada |
+| HU-02 | Diseño | 5 | En proceso |
+| HU-03 | Frontend | 8 | En proceso |
+| HU-04 | Backend | 8 | Pendiente |
+| HU-05 | Pruebas | 5 | En proceso |
+| HU-06 | Publicación | 5 | Pendiente |
+| HU-07 | Mantenimiento | 2 | Pendiente |
 
-HU-07. Mantenimiento (2 puntos)
-Estado: Pendiente.
+## Sprint Schedule
 
-Se realizarán mejoras y correcciones después de publicar la página.
+| Sprint | Días | Horas | Estado |
+|---|---|---|---|
+| 1 | 1 al 5 | 32 | Diseño en proceso |
+| 2 | 6 al 10 | 84 | Frontend en proceso |
+| 3 | 11 al 15 | 88 | Pruebas iniciales |
 
 ## Ajustes realizados
 
-Al revisar el proyecto se decidió trabajar primero con una página sencilla para comprobar que React funcionara correctamente.
+- Se agregó un historial de reportes.
+- Se agregó un contador de reportes.
+- Se incluyó la fecha de cada reporte.
+- Se mantuvo el diseño original.
+- El Backend sigue pendiente.
 
-Se dio prioridad al menú de navegación y al formulario de reportes.
+## Revisión
 
-Por el momento, el formulario funciona como una demostración, ya que todavía no está conectado a una base de datos.
-
-Las demás funciones se continuarán trabajando en los siguientes Sprints.
-
-## Revisión de avances
-
-Se abrió el proyecto en Visual Studio Code y se ejecutó correctamente.
-
-Se comprobó que el menú permite entrar a las diferentes secciones.
-
-También se llenó el formulario de reportes y apareció un mensaje confirmando el envío.
-
-## Criterio para terminar una actividad
-
-Una actividad se considera terminada cuando se ha realizado y se ha revisado que funciona correctamente.
+Se probó el historial y funciona correctamente. Los reportes se guardan en el navegador, pero todavía falta conectarlos a una base de datos.
