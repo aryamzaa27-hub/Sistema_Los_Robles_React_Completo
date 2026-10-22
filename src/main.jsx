@@ -56,7 +56,17 @@ function App() {
     setEnviado(true);
     setForm({ nombre: "", email: "", mensaje: "" });
   }
+  // Eliminar los reportes con confirmación
+  function borrarReportes() {
+    const confirmar = window.confirm(
+      "¿Estás segura de que deseas eliminar todos los reportes?"
+    );
 
+    if (confirmar) {
+      setReportes([]);
+      localStorage.removeItem("reportesLosRobles");
+    }
+  }
   return (
     <div>
       <header className="top">
@@ -218,6 +228,15 @@ function App() {
           <p className="tag">SEGUIMIENTO</p>
           <h2>Historial de reportes</h2>
           <p>Total de reportes: {reportes.length}</p>
+          {reportes.length > 0 && (
+  <button
+    className="btn"
+    type="button"
+    onClick={borrarReportes}
+  >
+    Eliminar todos los reportes
+  </button>
+)}
 
           {reportes.length === 0 ? (
             <p>Todavía no hay reportes registrados.</p>
