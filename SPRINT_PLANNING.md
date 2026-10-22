@@ -70,7 +70,7 @@ Todavía faltan las pruebas completas y la publicación del sistema.
 
 ## Ajustes realizados en la tercera fase
 
-1. Se agregó un botón para eliminar todos los reportes.
+1. Se agregó un botOn para eliminar todos los reportes.
    Motivo: Permitir limpiar el historial cuando sea necesario.
 
 2. Se agregó una confirmación antes de eliminar los reportes.
