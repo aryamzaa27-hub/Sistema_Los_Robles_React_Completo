@@ -108,6 +108,7 @@ function App() {
             <a href="#servicios">Servicios</a>
             <a href="#contacto">Contacto</a>
             <a href="#historial">Historial</a>
+            <a href="#actividades">Actividades</a>
           </nav>
         </div>
       </header>
